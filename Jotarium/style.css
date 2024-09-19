@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+
+.sec-space {
+  padding: 4rem 0;
+}
+
+.extra-space {
+  padding-top: 8rem;
+}
+
+.obj-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #1f4a40;
+}
+
+#navigation_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+#navigation_bar .logo {
+  width: 120px;
+}
+
+#nav_menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+#nav_menu li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#nav_btn {
+  margin-left: 40px;
+  background: #fff;
+  color: #1f4a40;
+  padding: 9px 30px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+}
+
+#hamburger_menu {
+  color: #fff;
+  display: none; 
+  margin-left: auto; 
+}
+
+/* Адаптивная часть */
+@media (max-width: 700px) {
+  #nav_menu li a {
+    margin-left: 40px;
+  }
+
+}
+
+
+@media (min-width: 600px) {
+  #nav_menu li a {
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  #nav_menu li a{
+    margin-left: 18px;
+  }
+}
+
+@media (max-width: 550px) {
+  #nav_menu li a{
+    margin-left: 3px;
+  }
+}
+
+
+
